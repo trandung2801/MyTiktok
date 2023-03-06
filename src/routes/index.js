@@ -8,15 +8,12 @@ import HeaderOnly from '../components/Layout/HeaderOnly';
 
 //Public routes
 const publicRoutes = [
-    { path: '/', component: Home},
-    { path: '/following', component: Following},
-    { path: '/profiles', component: Profiles},
-    { path: '/upload', component: Upload, layout: HeaderOnly}
+    { path: '/', component: Home },
+    { path: '/following', component: Following },
+    { path: '/profiles', component: Profiles },
+    { path: '/upload', component: Upload, layout: HeaderOnly },
+];
 
-]
+const privateRoutes = [];
 
-const privateRoutes = [
-    
-]
-
-export {publicRoutes, privateRoutes} 
+export { publicRoutes, privateRoutes };
