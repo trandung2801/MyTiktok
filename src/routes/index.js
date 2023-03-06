@@ -1,10 +1,10 @@
-import Home from '../pages/Home';
-import Following from '../pages/Following';
-import Profiles from '../pages/Profiles';
-import Upload from '../pages/Upload';
+import Home from '~/pages/Home';
+import Following from '~/pages/Following';
+import Profiles from '~/pages/Profiles';
+import Upload from '~/pages/Upload';
 
 //Layout
-import HeaderOnly from '../components/Layout/HeaderOnly';
+import HeaderOnly from '~/components/Layout/HeaderOnly';
 
 //Public routes
 const publicRoutes = [
